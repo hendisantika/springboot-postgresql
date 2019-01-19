@@ -31,10 +31,11 @@ public class CustomerController {
         repository.save(new Customer("Uzumaki", "Naruto"));
 
         // save a list of Customers
-        repository.saveAll(Arrays.asList(new Customer("Uchiha", "Sasuke")
-                , new Customer("Haruno", "Sakura")
-                , new Customer("Hatake", "Kakashi")
-                , new Customer("Namikaze", "Minato")));
+        repository.saveAll(Arrays.asList(
+                new Customer("Uchiha", "Sasuke"),
+                new Customer("Haruno", "Sakura"),
+                new Customer("Hatake", "Kakashi"),
+                new Customer("Namikaze", "Minato")));
 
         return "Customers are created";
     }
