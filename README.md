@@ -29,8 +29,8 @@ APIs for Postgresql usage
     JSON data
     ```
     {
-        "firstName": "Sumit",
-        "lastName": "Khan"
+        "firstName": "Aburame",
+        "lastName": "Shino"
     }
     ```
 
